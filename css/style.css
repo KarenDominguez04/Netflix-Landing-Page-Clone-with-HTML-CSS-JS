@@ -93,9 +93,6 @@ p{
 .tabs .container{
     display: grid;
     grid-template-rows: repeat(4, 1fr);
-    align-items: center;
-    grid-gap: 1rem;
-    justify-content: center;
     text-align:left;
 }
 .container{
@@ -107,51 +104,115 @@ p{
     border-top: 8px solid rgba(243, 243, 243, 0.15);
 }
 .grupo-1{
+    display: flexbox;
+    margin:auto;
     align-items: left;
     justify-content: center;
     line-height: 2.1rem;
-    width: 60%;
-    margin-left: 13rem;
+    width: 70%;
+}
+#1{
+    padding: 2rem;
 }
 .grupo-2{
-    align-items: center;
-    justify-content: center;
-    width: 500px;
+    width: 600px;
+    margin: 0;
 }
 .grupo-2 h1{
-    width: 500px;
+    width: 600px;
 }
 .tab-item{
     border-bottom: 8px solid rgba(243, 243, 243, 0.15);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
+    width: 100%;
     align-items: center;
     align-self: center;
-    justify-content: center;
-    width: 100%;
 }
 .tele{
     display: flex;
     position: relative;
+    margin-right: auto;
     align-items: center;
-    width: 80%;
-    height: auto;
-    margin: 2.4rem auto 2.4rem auto;
+    justify-content: center;
+    padding-top: 1.6rem;
+    padding-bottom: 4rem;
 }
 .tv{
+    display: flex;
     z-index: 2;
-    width: 100%;
-    margin: 0;
+    width: 90%;
 }
 .video{
+    display: flex;
     z-index: 1;
-    top: 5.8rem;
-    left: 6.82rem;
-    margin: 0;
     position: absolute;
+    margin-bottom: 1.5rem;
 }
-
+.download{
+    border: 3px solid hsla(0,0%,100%,.25);
+    display: flex;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 8px;
+    z-index: 2;
+    position: absolute;
+    background-color: #000;
+    margin-bottom: 1.7rem;
+}
+#d{
+    color:#0071eb;
+}
+.down{
+    width: 55px;
+    height: 55px;
+    align-self: center;
+    margin: auto 5px;
+}
+#boxshot{
+    width: 4em;
+    height: auto;
+}
+.st{
+    display: block;
+    align-self: center;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+.img-3{
+    display: flex;
+    align-items:flex-end;
+    justify-content:center;
+    margin-bottom: 5rem;
+}
+#el{
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    width: 75%;
+    z-index: 1;
+}
+.mac{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+}
+#img-mac{
+    z-index: 2;
+    display: flex;
+    width: 95%;
+}
+#video-mac{
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    align-self: start;
+    margin-top: 3rem;
+}
+#child{
+    width: 75%;
+    margin-left: auto;
+}
 /* ..............................PREGUNTAS FRECUENTES............................................*/
 .question-tittle{
     display: flex;
